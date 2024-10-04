@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep Omelet Telur</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #ff09a1;
+            text-align: center;
+            border: 2px solid #5757ff;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #bcd2e0;
+        }
+        h2 {
+            color: #6947ff;
+            
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul, ol {
+            color: #4328be;
+            padding: 20px;
+            background-color: #e0bcbc;
+            border-radius: 8px;
+        }
+        p {
+            color: #4328be;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2> Pemrograman Web </h2>
+        <h2> Nama : Zalia Salwa </h2>
+        <h2> NPM : 2313025043 </h2>
+        <h1>Resep Omelet Telur</h1>
+        <p><img src="https://awsimages.detik.net.id/community/media/visual/2022/04/02/resep-omelet-tomat_43.jpeg?w=1200" width="30%" height="30%">
+        <h2>Bahan-bahan:</h2>
+        <ul>
+            <li>4 Butir Telur</li>
+            <li>1 SDT Penyedap Rasa</li>
+            <li>1 SDM Daun Bawang Iris</li>
+            <li>2 SDM Keju</li>
+            <li>1 SDM Mentega</li>
+            <li>1 Buah Tomat</li>
+        </ul>
+
+        <h2>Cara Membuat:</h2>
+        <ol>
+            <li>Kocok telur dalam mangkuk</li>
+            <li>Tambahkan penyedap rasa</li>
+            <li>Masukan daun bawang dan keju aduk rata</li>
+            <li>Panaskan wajan, masukan mentega masak hingga leleh</li>
+            <li>Tuangkan telur ke wajan dan masak</li>
+            <li>Sajikan dengan potongan tomat</li>
+        </ol>
+
+        <footer>
+            <p>@Copyright Zalia Salwa 2024</p>
+        </footer>
+    </div>
+</body>
+</html>

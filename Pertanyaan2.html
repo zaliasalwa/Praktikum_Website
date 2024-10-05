@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Menu Makanan</title>
+    <link rel="stylesheet" href="Pertanyaan2Eksternal.css" type="text/css">
+    <style>
+        nav { 
+            text-align:center; 
+            background-color: #ec61da;
+            padding:10px 15px;
+            width: 65%;
+            margin: auto; 
+        }
+        .nav-links a {
+            padding: 10px 15px;
+            background-color: #ec61da;
+            color: white;
+            font-family: 'Tahoma';
+            text-decoration: none;
+        }
+        .nav-links a:hover {
+            background-color: #b3398a;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            text-decoration: none;
+        }
+        .centered {
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            margin: 10px 0;
+        }
+        .container form {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Zalia Salwa 2313025043 Pemrograman Web</h1>
+    <h1>Daftar Menu Restoran Zalia Salwa</h1>
+    <p><img src="https://logowik.com/content/uploads/images/restaurant9491.logowik.com.webp" alt="Logo Resto">
+    <nav class="nav-links"> 
+        <a href="Pertanyaan 2 Web Zalia Salwa 2313025043(4).html">MENU</a> 
+        <a href="ABOUT.html">ABOUT</a> 
+    </nav> <br>
+    <table class="table">
+            <tr>
+                <th title="Kolom Nama Makanan">Nama Makanan</th>
+                <th title="Kolom Harga Makanan">Harga</th>
+                <th title="Kolom Tautan Makanan">Tautan</th>
+                <th title="Kolom Gambar Makanan">Gambar</th>
+            </tr>
 
+            <tr>
+                <td>Omelet Telur</td>
+                <td>Rp. 15.000</td>
+                <td><a href="https://www.masakapahariini.com/wp-content/uploads/2022/02/Omelet-Daging-Keju.jpg">Lihat Detail</a></td>
+                <td><img src="C:\Users\usEr\Downloads\Omelet-Daging-Keju.jpg" alt="Gambar Omelet Telur"></td>
+            </tr>
+            <tr>
+                <td>Nasi Goreng</td>
+                <td>Rp 20.000</td>
+                <td><a href="https://www.masakapahariini.com/wp-content/uploads/2022/03/nasi-goreng-rempah.jpg">Lihat Detail</a></td>
+                <td><img src="C:\Users\usEr\Downloads\nasgor.jpg" alt="Gambar Nasi Goreng"></td>
+            </tr>
+            <tr>
+                <td>Seblak</td>
+                <td>Rp 10.000</td>
+                <td><a href="https://nibble-images.b-cdn.net/nibble/original_images/389848189.jpg">Lihat Detail</a></td>
+                <td><img src="C:\Users\usEr\Downloads\seblak.webp" alt="Gambar Seblak"></td>
+            </tr>
+    </table> <br>
+
+    <div class="container form"> 
+    <form>
+        <h1>Pesan Makanan</h1>
+
+            <label class="centered">
+                <input type="checkbox"/> <h2>Omelet Telur Rp. 15.000</h2>
+            </label> 
+            <label class="centered">
+                <input type="checkbox"/> <h2>Nasi Goreng Rp. 20.000</h2>
+            </label> 
+            <label class="centered">
+                <input type="checkbox"/> <h2>Seblak Rp. 10.000</h2>
+            </label> 
+            
+        <div class="centered">
+            <input type="button" value="Pesan Sekarang!" onclick="submitOrder()"/>
+        </div>
+    <form> <br>
+    </div> 
+
+    <footer><p>@Copyright Zalia Salwa 2024</p></footer>
+    </div>
+
+    <script src="Eksternal.js"></script>
+</body>
+</html>
